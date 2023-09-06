@@ -22,7 +22,7 @@ public class Ex3 {
         System.out.println(item1 +"..... £" +price1);
         System.out.println(item2 +"..... £" +price2);
         System.out.println(item3 +"..... £" +price3);
-        System.out.format("Subtotal... £%.2f%n", (price1 + price2+ price3));
+        System.out.format("Subtotal... £%.2f%n", (price1 + price2+ price3 ));
 
     }
 }
