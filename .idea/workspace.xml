@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a898c8b9-84dd-4798-a928-a3797caf85f7" name="Changes" comment="anagrams">
-      <change afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a898c8b9-84dd-4798-a928-a3797caf85f7" name="Changes" comment="Ex1">
+      <change afterPath="$PROJECT_DIR$/src/Ex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693403042882</updated>
       <workItem from="1693403043911" duration="3445000" />
-      <workItem from="1694001907368" duration="2680000" />
+      <workItem from="1694001907368" duration="3214000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <option name="closed" value="true" />
@@ -83,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693407182681</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ex1">
+      <option name="closed" value="true" />
+      <created>1694004744677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694004744677</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +124,7 @@
     <MESSAGE value="Hello World!" />
     <MESSAGE value="Haiku" />
     <MESSAGE value="anagrams" />
-    <option name="LAST_COMMIT_MESSAGE" value="anagrams" />
+    <MESSAGE value="Ex1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex1" />
   </component>
 </project>

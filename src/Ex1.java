@@ -10,6 +10,6 @@ class Ex1 {
         String name = myObj.nextLine();
         String hobby = myObj.nextLine();
 
-        System.out.println("My friend " + name + " was a big fan of " + hobby +" he could do it all day and all night, he loved it so much that he got told he had to stop " + hobby + " and find a new thing to do.");
+        System.out.println("My friend " + name + " was a big fan of " + hobby +" he could do it all day and all night, he loved it so much that he got told he had to stop " + hobby + " and find a new thing to do");
     }
 }
