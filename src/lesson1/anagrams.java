@@ -1,3 +1,5 @@
+package lesson1;
+
 public class anagrams {
     public static void main(String[] args) {
         System.out.println("Cheat cool = Chocolate");

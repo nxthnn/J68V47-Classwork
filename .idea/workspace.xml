@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a898c8b9-84dd-4798-a928-a3797caf85f7" name="Changes" comment="Ex2">
-      <change afterPath="$PROJECT_DIR$/src/Ex3.java" afterDir="false" />
+    <list default="true" id="a898c8b9-84dd-4798-a928-a3797caf85f7" name="Changes" comment="Ex3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +21,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nxthnn"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3a393cba-7f59-4fa6-b249-412b85509fc3" />
+        <option name="url" value="https://github.com/nxthnn/J68V47-Classwork" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -71,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693403042882</updated>
       <workItem from="1693403043911" duration="3445000" />
-      <workItem from="1694001907368" duration="7191000" />
+      <workItem from="1694001907368" duration="8030000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <option name="closed" value="true" />
@@ -121,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694006019216</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ex2">
+      <option name="closed" value="true" />
+      <created>1694011449135</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694011449135</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ex3">
+      <option name="closed" value="true" />
+      <created>1694011518282</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694011518282</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +185,8 @@
     <MESSAGE value="anagrams" />
     <MESSAGE value="Ex1" />
     <MESSAGE value="Ex2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex2" />
+    <MESSAGE value="Ex3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

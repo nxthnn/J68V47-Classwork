@@ -1,4 +1,6 @@
-import java.util.Scanner; // import the Scanner class 
+package lesson2;
+
+import java.util.Scanner; // import the Scanner class
 
 class Ex1 {
     public static void main(String[] args) {

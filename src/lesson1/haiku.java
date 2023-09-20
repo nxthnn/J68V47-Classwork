@@ -1,3 +1,5 @@
+package lesson1;
+
 public class haiku {
     public static void main(String[] args) {
         System.out.println("Chases down the pitch");
