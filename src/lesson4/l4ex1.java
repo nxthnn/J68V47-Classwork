@@ -19,6 +19,6 @@ public class l4ex1 {
         System.out.println("Customer: "+firstname.substring(0,1)+" "+surname);
         System.out.println("Order Total:  £"+value);
         System.out.println("Deposit paid:  £"+deposit);
-        System.out.println("Remainder:  £"+ (value - deposit));
+        System.out.format("Remainder:  £%.2f%n", (value - deposit));
     }
 }
