@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a898c8b9-84dd-4798-a928-a3797caf85f7" name="Changes" comment="Ex3">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/l5ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/l5ex2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8/l8ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8/l8ex2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -99,6 +99,7 @@
       <workItem from="1694001907368" duration="8030000" />
       <workItem from="1695213521045" duration="3486000" />
       <workItem from="1695819055281" duration="2811000" />
+      <workItem from="1698844655092" duration="3936000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <option name="closed" value="true" />
