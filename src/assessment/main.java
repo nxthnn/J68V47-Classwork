@@ -1,5 +1,6 @@
 package assessment;
 
+import java.util.Objects;
 import java.util.Scanner;
 import java.util.Map;
 import java.util.HashMap;
@@ -22,8 +23,7 @@ public class main {
             System.out.println("Selected team: " + userTeam);
         }
 //This ensures that the team you select is from the text file
-        int gamesPlayed = 0;
-        while (gamesPlayed < 11)
+
         System.out.print("Do you want to train (Y/N): ");
         String trainingInput = scanner.nextLine();
 
@@ -39,11 +39,19 @@ public class main {
         } else {
             System.out.println("Invalid input. Please enter Y or N.");
         }
+        System.out.println("Please select a team to play from the list (Not your own team) \nCeltic\nRangers\nAberdeen\nHearts\nKilmarnock\nSt.Mirren\nHIbernian\nDundee\nSt.Johnstone\nRoss County\nLivingston\n:");
+        String opponent = scanner.nextLine();
+
+        if (Objects.equals(opponent, userTeam)) {
+            System.out.println("Invalid choice");
+        } else {
+            System.out.println(userTeam+" v "+opponent+" will begin soon!");
+        }
 
 
-        gamesPlayed = gamesPlayed + 1;
+
     }
-    private static void initializeTeams() {
+    public static void initializeTeams() {
         teams.put("Celtic", 90);
         teams.put("Rangers", 85);
         teams.put("Aberdeen", 80);

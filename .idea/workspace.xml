@@ -32,8 +32,8 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="3a393cba-7f59-4fa6-b249-412b85509fc3" />
-        <option name="url" value="https://github.com/nxthnn/J68V47-Classwork" />
+        <option name="accountId" value="95af20fb-ead8-4ebd-bcbd-04d1c21963d6" />
+        <option name="url" value="https://github.com/nxthnn/J68V47-Classwork.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -95,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.l4ex1" />
         <item itemvalue="Application.Ex2" />
+        <item itemvalue="Application.l4ex1" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +113,8 @@
       <workItem from="1695213521045" duration="3486000" />
       <workItem from="1695819055281" duration="2811000" />
       <workItem from="1696353780116" duration="3927000" />
-      <workItem from="1706556908671" duration="4952000" />
+      <workItem from="1706556908671" duration="4987000" />
+      <workItem from="1707246862368" duration="1529000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <option name="closed" value="true" />
@@ -187,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695213613710</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ex3">
+      <option name="closed" value="true" />
+      <created>1706567524295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706567524295</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
