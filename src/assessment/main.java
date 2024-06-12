@@ -16,12 +16,24 @@ public class main {
     public static String userTeam;
     public static int gamesPlayed = 0;
 
+    public static final String[] teamNames = {
+            "Celtic", "Rangers", "Aberdeen", "Hearts",
+            "St.Mirren", "Kilmarnock", "Hibernian", "Dundee",
+            "St.Johnstone", "Ross County", "Livingston", "Motherwell"
+    };
+
+    public static final int[] teamRatings = {
+            90, 85, 80, 80,
+            78, 76, 75, 67,
+            72, 72, 74, 70
+    };
+
     public static void main(String[] args) {
         initializeTeams();
         initializeRandomPoints();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Pick your team. \nCeltic\nRangers\nAberdeen\nHearts\nKilmarnock\nSt.Mirren\nHibernian\nDundee\nSt.Johnstone\nRoss County\nLivingston\n: ");
+        System.out.print("Pick your team. \nCeltic\nRangers\nAberdeen\nHearts\nKilmarnock\nSt.Mirren\nHibernian\nDundee\nSt.Johnstone\nRoss County\nLivingston\nMotherwell\n: ");
         userTeam = scanner.nextLine();
 
         if (!teams.containsKey(userTeam)) {
@@ -49,7 +61,7 @@ public class main {
                 continue;
             }
 
-            System.out.println("Please select a team to play from the list (Not your own team) \nCeltic\nRangers\nAberdeen\nHearts\nKilmarnock\nSt.Mirren\nHibernian\nDundee\nSt.Johnstone\nRoss County\nLivingston\n:");
+            System.out.println("Please select a team to play from the list (Not your own team) \nCeltic\nRangers\nAberdeen\nHearts\nKilmarnock\nSt.Mirren\nHibernian\nDundee\nSt.Johnstone\nRoss County\nLivingston\nMotherwell\n:");
             String opponent = scanner.nextLine();
 
             if (Objects.equals(opponent, userTeam)) {
@@ -70,18 +82,9 @@ public class main {
     }
 
     public static void initializeTeams() {
-        teams.put("Celtic", 90);
-        teams.put("Rangers", 85);
-        teams.put("Aberdeen", 80);
-        teams.put("Hearts", 80);
-        teams.put("St.Mirren", 78);
-        teams.put("Kilmarnock", 76);
-        teams.put("Hibernian", 75);
-        teams.put("Dundee", 67);
-        teams.put("Motherwell", 70);
-        teams.put("St.Johnstone", 72);
-        teams.put("Ross County", 72);
-        teams.put("Livingston", 74);
+        for (int i = 0; i < teamNames.length; i++) {
+            teams.put(teamNames[i], teamRatings[i]);
+        }
     }
 
     public static void initializeRandomPoints() {
